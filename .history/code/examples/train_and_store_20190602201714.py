@@ -29,7 +29,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adadelta', metrics=['a
 
 model.fit(X, Y, batch_size=128, epochs=100, verbose=1)
 
-weight_file = '../agents/weights.h5'
+weight_file = '../agents/weights.hd5'
 model.save_weights(weight_file, overwrite=True)
 model_file = '../agents/model.yml'
 with open(model_file, 'w') as yml:
