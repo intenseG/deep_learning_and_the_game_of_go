@@ -6,7 +6,7 @@ setup(name='dlgo',
       description='Deep Learning and the Game of Go',
       url='http://github.com/maxpumperla/deep_learning_and_the_game_of_go',
       install_requires=[
-            'numpy', 
+            'numpy<=1.14.5', 
             'tensorflow==1.13.1', 
             'sgfmill', 
             'Flask>=0.10.1', 
