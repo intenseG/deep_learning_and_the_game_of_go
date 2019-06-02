@@ -96,4 +96,4 @@ if __name__ == '__main__':
         epoch_num = args[2]
     elif len(args) == 4:
         model_file = args[3]
-    main(model_file, num_games, epoch_num)
+    main(model_file, num_games)

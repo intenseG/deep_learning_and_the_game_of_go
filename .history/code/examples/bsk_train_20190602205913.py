@@ -89,11 +89,8 @@ if __name__ == '__main__':
     args = sys.argv
     model_file = ''
     num_games = 100
-    epoch_num = 5
     if len(args) == 2:
         num_games = int(args[1])
     elif len(args) == 3:
-        epoch_num = args[2]
-    elif len(args) == 4:
-        model_file = args[3]
-    main(model_file, num_games, epoch_num)
+        model_file = args[2]
+    main(model_file, num_games)
